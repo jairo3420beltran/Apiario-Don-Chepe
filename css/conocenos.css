@@ -1,0 +1,203 @@
+/* incio seccion conocenos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_conocenos{
+    background-color: #eef2f1;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.cabecera_conocenos{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #f1ebf2;
+}
+.cabecera_link
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex start;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(36, 30, 30);
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'brush script mt', cursive;
+}
+.cabecera_img{
+   object-fit: cover;
+    height: 120%;
+    margin-right: 20px; 
+    background-color: transparent; /* Fondo transparente */
+    mix-blend-mode: multiply;  
+    margin-left: 10px;
+}
+.navegacion_conocenos
+{
+    background-color: #91a530;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    text-decoration: none;
+    color: rgb(112, 38, 38);
+    font-size: 15px;
+}
+.navegacion_conocenos a{
+    text-decoration: none;
+    color: rgb(7, 4, 4);
+    font-size: 20px;
+    
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: rgb(244, 244, 216);
+    padding: 10px 20px;
+}
+.navegacion_conocenos a:hover{
+    background-color: #cfbdca;
+    color: rgb(36, 30, 30);
+}
+.banner{
+    background-color: #cfbdca;
+    padding: 40px 20px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.banner h1{
+    font-size: 50px;
+    color: rgb(36, 30, 30);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Brush Script MT', cursive;
+}
+.filtros{
+    margin: 20px 0;
+}
+.btn-filtro{
+    background-color: #499d8c;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.btn-filtro:hover{
+    background-color: #c3c926;
+    color: rgb(36, 30, 30);
+}
+.btn-filtro-active{
+    background-color: #6091d1;
+    color: rgb(191, 76, 76);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.btn-filtro-active:hover {
+    background-color: #e4e424;
+    color: rgb(36, 30, 30);
+}
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.item-galeria{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-sizing: 0 4px 8px rgba(212, 43, 43, 0.1);
+    transition: transform 0.5s;
+
+}
+.item-galeria:hover{
+    transform: scale(1.05);
+}
+.item-galeria img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    border-radius: 15px;
+
+}
+/*  presentación familia*/
+.presentacion{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8cdc7;
+}
+.presentacion h2{
+    font-size: 50px;
+    color: rgb(36, 30, 30);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Brush Script MT', cursive;
+}
+.presentacion p{
+    font-size: 20px;
+    color: rgb(36, 30, 30);
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1;
+}
+/*redes sociales*/
+.section-redes{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2edf3;
+}
+.redes-sociales{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #745879;
+}
+.redes-sociales img{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}

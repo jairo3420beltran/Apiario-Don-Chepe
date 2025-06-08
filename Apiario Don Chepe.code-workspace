@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../diplomado en desarrollo se software/CURSO JAVA"
+		},
+		{
+			"path": "../../../../../../xampp/htdocs/curso_php"
+		},
+		{
+			"path": "../../../../../../xampp/htdocs/diplomadoPHP"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
