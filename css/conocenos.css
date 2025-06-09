@@ -371,3 +371,22 @@
 .textos_s4:nth-child(even){
     background-color: rgb(162, 143, 114);
 }
+/*fotosy video*/
+
+.galeria{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+.galeria img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.galeria{
+    transition:  all 0.5s;
+}
