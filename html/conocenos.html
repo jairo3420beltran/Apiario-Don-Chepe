@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/conocenos.css">
     <title>Conocenos</title>
+    <script src="./css/conocenos.js" defer></script>
 </head>
 <body>
     <main class="main_conocenos">
@@ -23,18 +24,19 @@
             <h1>Emprendimiento Familiar </h1> 
             <div class ="filtros">
                 <button id="botonFotos" class="btn-filtro">Fotos</button>
-                <button id="botonVideos" class="btn-filtro">Videos</button>
+                <button onclick="mostrarVideos()" id="botonVideos" class="btn-filtro">Videos</button>
                 <button id="botonHistorias" class="btn-filtro">Historia</button>
             </div>
+<!-- seccion de fotos -->       
            <div id="galeria" class="galeria" style="display: none">
-            <img src="img/cadena de abejas.jpg" alt="abejas en cadena">
-            <img src="img/cosecahando en el san juan.jpg" alt="cocechando ">
+            <img src="img/abeja con polen.jpg" alt="abejas en cadena">
+            <img src="img/cuadros llenos.jpg" alt="cocechando ">
             <img src="img/cocechando en familia .jpg" alt="Familia Unida">
             <img src="img/apiario1.jpg" alt="apiario">
             <img src="img/capturando nuevas colmenas.jpg" alt="capturando colmenas">
-
            </div>
            
+<!-- seccion de muestra de galeria  -->
             <div class="contenedor-galeria">
                 <a href="img/capturando colmena.jpg" data-lightbox="Galeria" data-title="capturando colmenas" class="item-galeria">
                     <img src="img/capturando colmena.jpg" alt="capturando colmenas" >
@@ -47,8 +49,27 @@
                     <img src="img/capturando abejas 3.jpg" alt="capturando colmenas 3">
                 </a>                
             </div>  
-        </section>
-<script>conocenos.js</script>
+            <div class="galeria-miel">
+    <button class="flecha flecha-izquierda">&#9664;</button>
+    <div class="contenedor-slider">
+        <div class="slider">
+            <img src="img/corazon de abejas.jpg" alt="Colmenas">
+            <img src="img/cosecahndo 2.jpg" alt="Miel pura">
+            <img src="img/abeja reina.jpg" alt="Apicultores">
+        </div>
+    </div>
+    <button class="flecha flecha-derecha">&#9654;</button>
+</div>
+
+<div class="video-list" id="videoList">
+    <iframe src="img/cargando la miel del san juan .mp4" allowfullscreen></iframe>
+    <iframe src="img/sacando miel del san juan .mp4" allowfullscreen></iframe>
+
+</div>
+    </section>
+
+
+
     <section class="presentacion">
         <h2>La Familia</h2>
         <p>La Familia Beltran Jimenez: Un Legado Apícola con Impacto en el Guavio
@@ -79,11 +100,15 @@
             Aliados del SENA: Son casos de estudio para nuevos técnicos en agroecología.
             
             "Nuestra miel lleva el sabor de estas montañas y el cuidado que le damos. Ahora la vereda Zaque Cuarto "Yonama" suena en lugares que ni imaginábamos" — Zuly Beltran.</p>
+            <div class="img-descripcion">
+                <img class="img-familia" src="img/cocechando en familia .jpg" alt="">
+            </div>
     <div>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam doloribus natus repellat alias illum cumque facilis sit inventore officiis atque et ullam culpa recusandae quisquam, minima quasi illo ducimus voluptatum?
         </p>
     </div>
+    
     </section>
     <section class="section-redes">
         <article class="article">
