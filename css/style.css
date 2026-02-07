@@ -46,10 +46,10 @@
     margin-left: 20px;
 }
 .navegacion{
-    background-color: #b3b4b6;
+    background-color: #e6d92d;
     width: 100%;
-    height: 60px;
-    padding: 0,70px;
+    height: 30px;
+    padding: 30px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,7 +76,7 @@
     height: calc(100vh - 160px);
     background-color: #d8d83b;
     width: 100%;
-    height: 300px;
+    height: 500px;
     padding: 0,50px;
     display: flex;
     flex-direction: column;
