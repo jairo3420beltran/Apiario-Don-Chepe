@@ -59,7 +59,7 @@
 }
 .navegacion a{
     text-decoration: none;
-    color: white;
+    color: rgb(233, 245, 245);
     font-size: 18px;
     padding:15px 30px;
     border-radius: 20px;
@@ -95,7 +95,7 @@
 }
 .banner a  {
     text-decoration: none;
-    color: white;
+    color: rgb(139, 43, 43);
     width: 200px;
     height: 50px;
     display: flex;
@@ -110,8 +110,8 @@
     margin-top: 100px;
 }
 .banner a:hover{
-    background-color: #dcd857;
-    color: rgb(241, 139, 139);
+    background-color: #dbd517;
+    color: rgb(15, 14, 14);
 }
 /* Fin sección 1 cabecera */
 
@@ -129,8 +129,8 @@
     
 }
 .bloque_izquierdo{
-   width : 60%;
-    display: flex;
+   width : 70%;
+    display: block;
     flex-direction: column;
     justify-content: start;
     align-items: center;
@@ -144,28 +144,19 @@
     text-align: center;
     font-size: 30px;
 }
-.bloque_izq_tittle h2{
+.importancia{
     width: 100%;
     padding: 10px 20px;
-    font-family: 'brush script mt', cursive;
-    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     font-weight: 500;
     text-align: center;
     color: rgb(6, 1, 1);
 }
-.bloque_izq_tittle  h3{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-family: goudy system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(6, 1, 1);
-}
+
 .izq_img{
     width : 100%;
-    height: 300px;
+    height: 500px;
     display: flex;
     margin: 30px 0;
     
@@ -181,44 +172,55 @@
 
 }
 .bloque_derecho{
-    width: 40%;
-    background-color: #decdab;
-    height: 100%;
+    width: 30%;
+    background-color:white
+    padding: 20px 0;
+     display: block;
+     flex-direction: column;
+     justify-content: start;
+     align-items: center;
 }
 .dere_tittle{
-    background-color: #f2ed6b;
+    background-color: #b6b271;
     text-align: center;
 }
 .dere_noticias{
-    background-color: #d8a43b;
+    background-color: #c4bdb1;
     width: 100%;
     height: 100%;    
 }
 .noticias_texto h3{
-    color: white;
+    color: rgb(216, 46, 46);
     font-size: 30px;
     font-weight: 600;
     padding: 10px 0;
     text-align: center;
 }
-.noticias_texto p{
+.parrafo-derecho {
     color: rgb(11, 11, 11);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     padding: 10px 20px;
     text-align: center;
 }
-.noticias_img{
-    width: 50;
-    height: 200px;
-    display: flex;
+.galeria-img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 10px auto;
 }
-.noticias_img img{
+.galeria-img img{
     object-fit: cover;
     width: 100%;
 }
+.img-galeria{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin: 10px auto;
+}
 .dere_novedad{
-    background-color: #e5e567;
+    background-color: #e7e716;
     width: 100%;
     height: 100%;
     display: flex;
