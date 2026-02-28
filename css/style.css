@@ -6,7 +6,7 @@
     
 }
 .main{
-   background-color: rgb(249, 210, 161);
+   background-color: rgb(224, 209, 191);
    width: 100%;
    height: 100%;
    display: flex;
@@ -16,88 +16,92 @@
 }
 /*incio sección 1 cabecera*/
 .cabecera{
-    background-color: #f1cd58;
     width: 100%;
-    height: 100px;
-    padding: 0,50px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ece8d6;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
    
 }
 .cabecera_link{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex start;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      display: flex;
     align-items: center;
+    gap: 30px;
     text-decoration: none;
-    color: rgb(36, 30, 30);
-    font-size: 50px;
-    font-weight: 600;
-    font-family: 'brush script mt', cursive;
-
+    font-weight: bold;
+    font-size: 2rem;
+    color: #8B4513; /* Color miel/café */
     
 }
 .cabecera_img{
-   object-fit: cover;
-    height: 100%;
-    margin-right: 30px; 
-    background-color: transparent; /* Fondo transparente */
-    mix-blend-mode: multiply;  
-    margin-left: 20px;
+     width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFD700; /* Borde dorado */
+    padding: 3px; /* Espacio entre la imagen y el borde */
+    background-color: white; /* Fondo blanco por si la imagen tiene transparencia */
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Sombra dorada */
+    transition: transform 0.3s ease; /* Animación suave */
 }
 .navegacion{
-    background-color: #e6d92d;
-    width: 100%;
-    height: 30px;
-    padding: 30px 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-   
+    gap: 5px;
 }
 .navegacion a{
-    text-decoration: none;
-    color: rgb(233, 245, 245);
-    font-size: 18px;
-    padding:15px 30px;
-    border-radius: 20px;
-    background-color: #447a6f;
+   text-decoration: none;
+    color: #4a4a4a;
+    padding: 15px 37px;
+    border-radius: 25px; /* Botones muy redondeados */
+    transition: all 0.3s ease; /* Transición suave */
 }
+
+.navegacion a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+
 .navegacion a:hover{
-    background-color: #eca518;
+    background-color: #d9e78b;
     color: black;
 }
 .banner{
     background-image: url(../img/abeja\ reina.jpg);
     background-position: center;
-    width: 70;
+    width: 50%;
     height: calc(100vh - 160px);
-    background-color: #d8d83b;
     width: 100%;
-    height: 500px;
-    padding: 0,50px;
+    height: 400px;
+    padding: 10,50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .banner h1{
-    color: white;
+    color: rgb(46, 44, 44);
     font-size: 80px;
     font-weight: 600;
 }
 .banner h2{
-    color: white;
+    color: rgb(2, 2, 2);
     font-size: 20px;
     font-weight: 600;
 }
 .banner a  {
     text-decoration: none;
-    color: rgb(139, 43, 43);
-    width: 200px;
-    height: 50px;
+    color: rgb(218, 22, 22);
+    width: 100px;
+    height: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -217,7 +221,7 @@
     display: flex;
     width: 100%;
     height: 250px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 .dere_novedad{
     background-color: #e7e716;
